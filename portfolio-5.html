@@ -1,0 +1,134 @@
+<style type="text/css">
+.item {
+    margin-left: calc(40% - .5em);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .item {
+        margin-left: 0px;
+    }
+}
+</style>
+<div id="ajax-page" class="ajax-page-content">
+    <div class="ajax-page-wrapper">
+        <div class="ajax-page-nav">
+            <div class="nav-item ajax-page-prev-next">
+                <a class="ajax-page-load" href="portfolio-4.html"><i class="zmdi zmdi-chevron-left"></i></a>
+                <a class="ajax-page-load" href="portfolio-1.html"><i class="zmdi zmdi-chevron-right"></i></a>
+            </div>
+            <div class="nav-item ajax-page-close-button">
+                <a id="ajax-page-close-button" href="#"><i class="zmdi zmdi-close"></i></a>
+            </div>
+        </div>
+        <div class="ajax-page-title">
+            <h1>INTO Marshall App</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <div class="device-wrapper">
+                            <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="black">
+                                <div class="screen" style="background-image: url(images/portfolio/full/a2.png);background-size: cover;background-position: center;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="device-wrapper">
+                            <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="black">
+                                <div class="screen" style="background-image: url(images/portfolio/full/a1.png);background-size: cover;background-position: center;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="device-wrapper">
+                            <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="black">
+                                <div class="screen" style="background-image: url(images/portfolio/full/a3.png);background-size: cover;background-position: center;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="device-wrapper">
+                            <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="black">
+                                <div class="screen" style="background-image: url(images/portfolio/full/a4.png);background-size: cover;background-position: center;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="device-wrapper">
+                            <div class="device" data-device="galaxyS5" data-orientation="portrait" data-color="black">
+                                <div class="screen" style="background-image: url(images/portfolio/full/a5.png);background-size: cover;background-position: center;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="portfolio-page-image">
+                    <img src="images/portfolio/1.jpg" alt="">
+                </div>
+                -->
+                <script type="text/javascript">
+                jQuery(document).ready(function($) {
+
+                    $('.portfolio-page-carousel').owlCarousel({
+                        smartSpeed: 1200,
+                        items: 1,
+                        loop: true,
+                        dots: true,
+                        nav: true,
+                        navText: false,
+                        margin: 10
+                    });
+
+                });
+                </script>
+            </div>
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="block-title">
+                    <h3>Description</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li>
+                        <p><i class="fa fa-github"></i> <a href="https://github.com/Chintanjariwala/Android-app" target="_blank">Github</a></p>
+                    </li>
+                </ul>
+                <p class="text-justify">Description: Into Marshall University’s mobile application is designed with users in mind, which provides access to the latest news and information from Marshall University, and delivers it to your hands through your mobile device. It is using to search the campus phone directory, locate buildings on campus, view available courses, keep up with the latest sports scores, and get access to all the events happening on campus.</p>
+                <p class="text-justify">Responsibilities:</p>
+                <ul>
+                    <li>
+                        <p class="text-justify">Ensured that applications are properly integrated with Android APIs.</p>
+                    </li>
+                    <li>
+                        <p class="text-justify">Created SQL database structures that integrate with Android applications and web interfaces.</p>
+                    </li>
+                    <li>
+                        <p class="text-justify">Responsible for development of all application components and UI resources.</p>
+                    </li>
+                    <li>
+                        <p class="text-justify">Used Android Studio IDE to develop the screens for the application using MVC design pattern.</p>
+                    </li>
+                </ul>
+                <!-- /Project Description -->
+                <!-- Technology -->
+                <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Technology</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>Android</a></li>
+                        <li><a>Java</a></li>
+                        <li><a>XML</a></li>
+                    </ul>
+                </div>
+                <!-- /Technology -->
+            </div>
+        </div>
+    </div>
+</div>
