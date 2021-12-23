@@ -13,7 +13,7 @@ $(document).ready(function() {
         var comments = $('#form_message').val();
 
         $.ajax({
-            url: "https://formspree.io/jariwala1993@gmail.com ",
+            url: "https://formspree.io/f/xpzbwajb",
             method: 'POST',
             data: {
                 name: name,
